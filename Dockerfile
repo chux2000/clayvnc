@@ -1,8 +1,9 @@
-FROM chux2000/clayvnc:latest
+FROM linuxserver/heimdall:latest
 
 ENV VNC_PASSWD='chux2000'
 ENV USER_PASSWD='chux2000'
 ENV VNC_GEOMETRY=1366x768
 
 
-EXPOSE 9000/tcp
+EXPOSE 80/tcp
+EXPOSE 443/tcp
