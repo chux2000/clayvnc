@@ -1,4 +1,4 @@
-FROM linuxserver/heimdall:latest
+FROM linuxserver/nginx:latest
 
 ENV VNC_PASSWD='chux2000'
 ENV USER_PASSWD='chux2000'
